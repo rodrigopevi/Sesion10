@@ -2,6 +2,14 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\..\\ARQUITECTURA Y ORGANIZACIÓN DE LA COMPUTADORA"
 		}
-	]
+	],
+	"settings": {
+		"files.associations": {
+			"ejercicios": "cpp"
+		}
+	}
 }
