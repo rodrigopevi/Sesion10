@@ -1,0 +1,6 @@
+/* agrupación de selectores */
+div,h1,h2{
+
+    font-size: 12px;
+    color: green;
+}
