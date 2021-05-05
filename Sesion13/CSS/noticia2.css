@@ -1,0 +1,32 @@
+div img{
+    float: right;
+}
+#texto{
+    background-color: green;
+    text-align:center;
+
+}
+#Pie{
+    background-color: yellow;
+    float: right;
+ 
+}
+
+
+/* 
+li{
+    background-color: gray;
+    float: left;
+    text-align: center;
+}
+div img{
+    float: right;
+}
+#texto{
+    color: gray;
+}
+#pie{
+    background-color: #f7c600;
+    color: black;
+    float: right;
+} */

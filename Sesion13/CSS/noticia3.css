@@ -1,0 +1,38 @@
+#titu{
+ text-align: center;
+ color:black;
+ background-color: #f7c600 ; 
+ font-size: 50px;
+}
+
+li{
+    float: left;
+    background-color:black;
+    color:  #f7c600;
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    top: -33.5px;
+    position: relative;
+}
+
+img{
+
+    float: right;
+    top: auto;
+    position: relative;
+}
+
+div #texto{
+    color: gray;
+    text-align: justify;
+    top: auto;
+    position: relative;
+}
+
+div #pie{
+
+    background-color:#f7c600 ;
+    float: right;
+}
+
