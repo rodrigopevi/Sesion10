@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    
+    <title>Formulario</title>
+</head>
+<h1>Formulario</h1>
+<body>
+    <div id="contenedor">
+        <h2>Encuesta de cine_ Nominadas al Oscar 2018</h2>
+        <form id="formulario1" method="POST" action = "data.php">
+            <fieldset id="datos_personales">
+                <legend>Datos Personales</legend>
+                <label for="nombre" > Nombre </label>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="dni">DNI</label>
+                <input type="text"name = "dni" id="dni" maxlength="8"><br>
+                <label for="edad">Edad</label>
+                <input type="text" name="edad" id="edad" size="1" maxlength="2"><br>
+            </fieldset>
+            <fieldset id="mejores_película">
+                <legend>Mejor Pelicula</legend>
+                <input type="radio" name="pelicula" value="11">Call Me By Your Name <br>
+                <input type="radio" name="pelicula" value="22">Durkerque <br>
+                <input type="radio" name="pelicula" value="33">Dejame Salir <br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Argumento de tu película preferida</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="Borrar formulario"> <input type="submit" value="Enviar">
+            <br>
+            <fieldset>
+                <legend>lista</legend>
+                <select name="lista" id="lista">
+                    <option value="narnia">narnia</option>
+                    <option value="avenger">avenger</option>
+
+                    
+                </select>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
