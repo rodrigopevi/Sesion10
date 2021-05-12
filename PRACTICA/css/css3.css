@@ -1,0 +1,28 @@
+header{
+    background-color: teal;
+    height: 150px;
+}
+nav{
+    background-color: thistle;
+    width: 25%;
+    
+}
+section{
+    background-color: tomato;
+    width: 50%;
+}
+aside{
+    background-color: violet;
+    width : 25%;
+}
+footer{
+    background-color: yellow;
+    height: 100px;
+    clear: left;
+}
+nav,aside,section{
+    float: left;
+    height: 350px;
+    
+
+}

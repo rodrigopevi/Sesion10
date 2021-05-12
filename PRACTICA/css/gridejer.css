@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-areas: "t t t" "c c1 c2" "b b b";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 400px 200px;
+
+}
+
+.a{
+    grid-area: t;
+    background-color: teal;
+    
+}
+
+.b{
+    grid-area: c;
+    background-color: yellow;
+}
+
+.c{
+    grid-area: c1;
+    background-color: violet;
+    
+   
+}
+.d{
+    grid-area: c2;
+    background-color: tomato;
+    
+}
+.e{
+    grid-area: b;
+    background-color: thistle;
+   
+}
+

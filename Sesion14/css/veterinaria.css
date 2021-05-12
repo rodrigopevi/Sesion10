@@ -1,0 +1,111 @@
+.grid{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 220px 130px 1fr 300px 50px;
+    display: grid;
+    grid-template-areas: "h" "n" "s" "a" "f";
+}
+
+header {
+    background-color:white;
+    padding: 20px;
+    height: 160px;
+    grid-area: h;
+    border: teal solid 10px;
+}
+header h1{
+    color:teal;
+    font-size: 100px;
+    font-family:'Lucida Sans';
+    background-color: white;
+    position: relative;
+    top: -50px;
+    
+}
+header h2{
+    color: tomato;
+    font-size: 60px;
+    font-family:'Lucida Sans';
+    position: relative;
+    top: -140px;
+}
+header img{
+    position: relative;
+    float: left;
+    height: px;
+    height: 180px;
+    top: -373px;
+    left: 580px;
+    clear: left;
+}
+
+nav{
+    grid-area: n;
+    background-color:#e89838 ;
+    font-size: 18px;
+
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+    
+}
+nav li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+section{
+    grid-area: s;
+    border: solid #008080 20px;
+    background-color:white;
+    padding: 15px;
+    font-family:'Lucida Sans'
+}
+section p{
+
+    text-align: justify;
+}
+aside{
+    grid-area: a;
+    background-color:#e89838;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+aside li{
+ padding-left: -30px;  
+ right:20px;
+ position: relative;
+}
+footer{
+    grid-area: f;
+    background-color: teal;
+    padding:15px;
+    font-family:'Lucida Sans';
+    color: white;
+    text-align: center;
+  
+}
+
+@media (min-width:600 px) and (max-width:1000px){
+    .grid{
+        grid-template-columns: 300%;
+        grid-template-rows: 150px 550px 1fr 100px 10px ;
+        grid-template-areas: "h" " n" "a"" s" " f" ;
+
+    }
+}
+@media (min-width:1001px){
+    .grid{
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 220px 1fr 50px  ;
+        grid-template-areas: "h h h" "n s a" "f f f" ;
+
+    }
+}

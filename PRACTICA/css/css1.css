@@ -1,4 +1,55 @@
-nav{
-    background-color: aqua;
-    
+div #Titulo {
+
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+
 }
+
+li{
+    float: left;
+    background-color: gray;
+    color: white;
+    list-style: none;
+    width: 200px;
+    height: 20px;
+    top: -30px;
+    position: relative;
+    text-align: center;
+}
+div h2{
+    color: red;
+    /* text-align: left; */
+    clear: left;
+}
+
+div h3{
+    color:#1e1e1e;
+    position: relative;
+    top: -20px;
+    }
+
+    img{
+
+        position: relative;
+        float: right;
+        padding: 9px;
+        top: -23px;
+        padding-bottom: 4px;
+    }
+
+#texto{
+     text-align: justify;
+     top: -20px;
+     position: relative;
+ }   
+
+ #pie{
+     position: relative;
+     float: right;
+     background-color: red;
+     color: white;
+     padding: 5px;
+     top: -18px;

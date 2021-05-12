@@ -1,0 +1,25 @@
+header{
+    background-color: brown;
+    height: 150px;
+}
+nav{
+    background-color: coral;
+    width: 25%;
+}
+section{
+    background-color: darkgoldenrod;
+    width: 50%;
+}
+aside{
+    background-color: darkgreen;
+    width: 25%;
+}
+footer{
+    background-color: darkmagenta;
+    height: 100px;
+    clear: left;
+}
+nav,aside,section{
+    float: left;
+    height: 350px;
+}
