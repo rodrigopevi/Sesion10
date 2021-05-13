@@ -1,0 +1,209 @@
+.grid{
+    margin: 0px auto;
+    max-width: 200 px;
+    max-height: 100 vh;
+    display: grid;
+    grid-template-areas: "h h" "n n" "s a" "f f";
+}
+
+header{
+    padding: 10px;
+    height: 170px;
+    grid-area: h;
+    background-color: rgb(140,129,119);
+}
+header img{
+    width: 12%;
+    margin-left: 37px;
+    margin-top: -2px;
+    float: left;
+    position:absolute;
+    border: double rgb(38,31,26);
+  }
+
+header h1{
+    color: rgb(38,31,26);
+    position: relative;
+    left: 250px;
+    font-size: 45px;
+    width: 1000px; 
+}
+
+header h3{
+    color: wheat;
+    position: relative;
+    left: 1196.5px;
+    top: -100px;
+    width: 130px;
+    
+}
+header h3 a{
+    color: wheat;
+    text-decoration: none;
+    
+}
+header h2{
+    color: wheat;
+    position: relative;
+    left: 250px;
+    top: -60px;
+    width: 200px;
+  
+}
+
+nav{
+    grid-area: n;
+    background-color: rgb(64, 51, 44);
+   
+    height: 57px;
+}
+nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    float: left;
+    left: 170px;
+    position: relative;
+    border: double wheat 5px;
+    top: -9px;
+    font-size: 20px;
+    padding:10px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    margin-left: 1px;  
+    top: -13.5px;
+    height: 23px;
+    width: 110px;
+    text-align: center;
+}
+nav ul li a#cu {
+    background-color:rgb(140,129,119) ;
+}
+section{
+    grid-area: s;
+    padding: 30px;
+    padding-right: 100px;
+    border-left: solid rgb(64, 51, 44) 5px;
+}
+section div {
+    padding: 10px;
+    padding-right: 200px;
+    margin-right: 150px;
+    position: relative;
+    left: 97px;
+    
+    border: '1';
+}
+section div table{
+border-collapse: separate;
+}
+
+section h3, section p,section ul {
+
+    position: relative;
+    left: 50px;
+} 
+
+section h3{
+font-style: italic;
+}
+section div img{
+    height: 170px;
+    position: absolute;
+    left: 740px;
+    top: 30px;
+    border: double rgb(38,31,26) 4px;
+}
+section div p{
+    text-align: justify;
+}
+aside{
+    grid-area: a;
+    position:relative;
+    background-color: rgb(140,129,119);
+    right: 30px;
+    width: 200px;
+    left: 55px;
+    padding: 20px;    
+}
+aside div{
+    padding-bottom: 40px;
+    margin: 20px ;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(64, 51, 44);
+    border: double wheat 4px;
+}
+aside h3{
+    color: wheat;
+}
+aside div li a{
+
+    color: wheat;
+    text-decoration: none;
+    font-size: 16px;
+}
+aside div li {
+    color: wheat;
+    height: 20px;
+    position: relative;
+}
+
+footer{
+    grid-area: f;
+    background-color: rgb(64, 51, 44) ;
+}
+
+footer .fot{
+    position: relative;
+    float: left;
+} 
+footer img{
+    height: 100px;
+    position: relative;
+    right: 810px;
+    top: 20px;
+    border: double wheat;
+}
+
+footer div{
+    padding-left: 54px;
+    color: wheat;
+    position: relative;
+    left: 250px;
+}
+footer div ul a{
+    padding-left: 50px;
+    color: wheat;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    right: 60px;
+    top: -4px;
+    
+
+}
+footer div li{
+    list-style: none;
+    position: relative;
+    bottom: -12px;
+    right: 20px;
+  
+}
+footer div h3{
+    position: relative;
+    top: 20px;
+}
+footer p{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    background-color: wheat;
+}
