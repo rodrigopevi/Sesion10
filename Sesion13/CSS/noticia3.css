@@ -1,41 +1,47 @@
 #titu{
- text-align: center;
- color:black;
- background-color: #f7c600 ; 
- font-size: 50px;
- padding: 10px;
-}
-
-li{
-    float: left;
-    background-color:black;
-    color:  #f7c600;
-    list-style: none;
-    width: 192.8px;
     text-align: center;
-    top: -33.5px;
-    position: relative;
-}
-
-img{
-
-    float: right;
-    top: auto;
-    position: relative;
-    margin-left: 20px;
-}
-
-div #texto{
-    color: gray;
-    text-align: justify;
-    top: auto;
-    position: relative;
-}
-
-div #pie{
-
-    background-color:#f7c600 ;
-    float: right;
-    font-weight: bold;
-}
-
+    color:black;
+    background-color: #f7c600 ; 
+    font-size: 50px;
+    padding: 10px;
+   }
+   nav{
+       border: solid green;
+   }
+   li{
+       float: left;
+       left: -43px;
+       background-color:black;
+       color:  #f7c600;
+       list-style: none;
+       width: 194px;
+       text-align: center;
+       top: -53.5px;
+       position: relative;
+       border: solid red;
+       padding-left: px;
+   }
+   
+   img{
+   
+       float: right;
+       top: auto;
+       position: relative;
+       margin-left: 20px;
+   }
+   
+   div #texto{
+       color: gray;
+       text-align: justify;
+       top: auto;
+       position: relative;
+   }
+   
+   div #pie{
+   
+       background-color:#f7c600 ;
+       float: right;
+       font-weight: bold;
+   }
+   
+   

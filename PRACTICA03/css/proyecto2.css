@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(249, 245, 207);
+}
+header{
+    background-color: rgb(43,38,68);
+    color: rgb(249, 245, 207);
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header h1{
+   font-weight: bold;
+   font-size: 40px;
+   text-align: center;
+}
+h1{
+    text-align: center;
+}
+section{
+
+  padding-right: 240px;
+  padding-left: 240px;
+    position:relative;
+    left: 100px;
+    width: 800px;
+    bottom: -50px;
+}
+
+footer{
+    background-color: rgb(72,80,103);
+    color: rgb(249, 245, 207);
+    text-align: center;
+    font-size: 13px;
+    height: 55px;
+    position: relative;
+    bottom: -200px;
+    padding-bottom:10px;
+}
+footer p#f{
+    position: relative;
+    top: 3px;
+   padding-bottom:0px;
+}
+

@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(249, 245, 207);
+}
+header{
+    background-color: rgb(43,38,68);
+    color: rgb(249, 245, 207);
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header h1{
+   font-weight: bold;
+   font-size: 40px;
+   text-align: center;
+}
+nav{
+    background-color: rgb(72,80,103);
+    top: -20px;
+    position:relative;
+}
+nav a, nav li{
+    color:  rgb(249, 245, 207);
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    padding: 0px 4px;
+    margin-left: 10px;
+    left: 450px;
+    position: relative;
+    color:  rgb(249, 245, 207);
+    list-style: none;
+    float: left;
+}
+nav ul{
+    overflow: hidden;
+}
+
+section div {
+    background-color: rgb(43,38,68);
+    position: relative;
+    top: -36px;
+    height: 110px;
+}
+section img{
+    position:relative;
+    height: 100px;
+    top: 5px;
+    left: 40px;
+}
+section h2#pe{
+    background-color: rgb(43,38,68);
+    color:  rgb(249, 245, 207);
+    position:relative;
+    top: -60px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+}
+section p{
+    color: rgb(43,38,68);
+    position:relative;
+    top: -70px;
+    padding: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: -70px;
+}
+section span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+section h2#ex,h2#hc, h2#edu{
+    font-weight: bold;
+    background-color: rgb(43,38,68);
+    color:   rgb(249, 245, 207);
+    font-size: 20px;
+}
+
+thead tr{
+    color: rgb(43,38,68);
+}
+
+section ul li{
+    color: black;
+}
+section ul{
+    right: 0px;
+    position: relative;
+}
+
+section table#ed tbody tr td{
+    padding-left: 20px;
+    text-align: center;  
+}
+section table#ed tbody tr td{
+    padding-left: 20px;
+    text-align: center;  
+}
+footer{
+    background-color: rgb(72,80,103);
+    color: rgb(249, 245, 207);
+    text-align: center;
+    height: 30px;
+    font-size: 13px;
+    position: relative;
+    bottom: -50px;
+}
+footer p#f{
+    position: relative;
+    top: -15px;
+}
+

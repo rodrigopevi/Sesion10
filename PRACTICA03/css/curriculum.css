@@ -137,6 +137,7 @@ aside div{
     width: 150px;
     background-color: rgb(64, 51, 44);
     border: double wheat 4px;
+  
 }
 aside h3{
     color: wheat;
@@ -151,6 +152,8 @@ aside div li {
     color: wheat;
     height: 20px;
     position: relative;
+    margin-left: -30px;
+    left: 5px;
 }
 
 footer{
@@ -165,7 +168,7 @@ footer .fot{
 footer img{
     height: 100px;
     position: relative;
-    right: 810px;
+    right: 960px;
     top: 20px;
     border: double wheat;
 }

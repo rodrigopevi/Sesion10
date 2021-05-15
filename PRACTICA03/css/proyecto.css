@@ -90,7 +90,7 @@ section{
     border-left: solid rgb(64, 51, 44) 5px;
     text-align: left;
     width: 1200px;
-    
+    height: 300px;
 }
 section div {
     padding: 1px;
@@ -112,12 +112,13 @@ section ul#pro li{
     margin-left: 1px;  
     top: -13.5px;
     height: 23px;
-    width: 110px;
+    width: 70px;
     text-align: center;
     list-style: none;
     float: left;
     position: relative;
     margin-bottom: 200px;
+    border: solid red;
     
 }
 
@@ -136,9 +137,43 @@ section div ul#ver{
     top: 0px;
     width: 1000px;
     left: 750px;
-    
-    
 }
+
+section img#i1{
+    height: 200px;
+    position:relative;
+    left: 75px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+
+section img#i2{
+    height: 200px;
+    position:relative;
+    left: 120px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i5{
+    height: 200px;
+    position:relative;
+    left: 335px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i6{
+    height: 200px;
+    position:relative;
+    left: 340px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+
+
 section div ul li {
     text-decoration: none;
     list-style: none;
@@ -209,6 +244,9 @@ aside div li {
     color: wheat;
     height: 20px;
     position: relative;
+    left: 5px;
+    top: -5px;
+    margin-left: -30px;
 }
 
 footer{
@@ -223,7 +261,7 @@ footer .fot{
 footer img{
     height: 100px;
     position: relative;
-    right: 810px;
+    right: 950px;
     top: 20px;
     border: double wheat;
 }

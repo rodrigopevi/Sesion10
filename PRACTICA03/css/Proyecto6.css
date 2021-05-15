@@ -7,7 +7,9 @@
     display: grid;
     grid-template-areas: "h" "n" "s" "a" "f";
 }
-
+body{
+    background-color: #f9f5cf;;
+}
 header {
     background-color:white;
     padding: 20px;
@@ -98,12 +100,10 @@ footer{
 @media (min-width:600 px) and (max-width:1000px){
     .grid{
         grid-template-columns: 300%;
-        grid-template-rows: 50px 750px 1fr 100px 10px ;
+        grid-template-rows: 500px 650px 1fr 100px 10px ;
         grid-template-areas: "h" " n" "a"" s" " f" ;
     }
-    img{
-        visibility: hidden;
-    }
+
 }
 @media (min-width:1001px){
     .grid{
