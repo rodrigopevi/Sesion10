@@ -1,0 +1,52 @@
+body{
+    margin: 0px auto;
+    max-width: 900px;
+    min-height: 100vh;
+
+}
+header h2{
+ color: #713b15;
+ font-size: 28px;
+ margin-bottom: 3px;
+ text-align: right;
+}
+
+main{
+    
+    width: 500px;
+    float: right;
+}
+form{
+    background-color: wheat;
+}
+legend{
+    background-color:#713b15 ;
+    color: wheat;
+}
+#bo,#en{
+    background-color: #713b15;
+    color: wheat;
+    border-radius: 5px;    
+    height: 40px;
+    font-size: 15px;
+    left: 130px;
+    position: relative;
+}
+#a,#b,#c,#d,#e{
+   padding-bottom: 10px;
+}
+
+input[type=text], select{
+ 
+   width: 200px;
+   border-radius: 5px;
+   left: 50px;
+   position: relative;
+}
+
+aside{
+    width: 300px;
+}
+img{
+    height: 700px;
+}

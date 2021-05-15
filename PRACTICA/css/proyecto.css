@@ -80,43 +80,141 @@ nav ul li a {
     width: 110px;
     text-align: center;
 }
-nav ul li a#cu {
+nav ul li a#pr {
     background-color:rgb(140,129,119) ;
 }
 section{
     grid-area: s;
-    padding: 30px;
+    padding: 25px;
     padding-right: 100px;
     border-left: solid rgb(64, 51, 44) 5px;
+    text-align: left;
+    width: 1200px;
+    height: 300px;
 }
 section div {
-    padding: 10px;
-    padding-right: 200px;
+    padding: 1px;
+    width: 200px;
     margin-right: 150px;
     position: relative;
     left: 97px;
-    
     border: '1';
+   
 }
+section ul#pro li{
+
+    text-decoration: none;
+    left: -90px;
+    font-size: 20px;
+    padding:10px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    margin-left: 15px;  
+    top: -13.5px;
+    height: 23px;
+    width: 70px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-bottom: 200px;
+  
+    
+}
+
+section div ul li a{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: rgb(38,31,26);
+   
+}
+section div ul#ver{
+    border: solid green;
+    clear: both;
+    float: right;
+    height: 100px;
+    top: 0px;
+    width: 1000px;
+    left: 750px;
+}
+
+section img#i1{
+    height: 200px;
+    position:relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+
+section img#i2{
+    height: 200px;
+    position:relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i3{
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i4{
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i5{
+    height: 200px;
+    position:relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+section img#i6{
+    height: 200px;
+    position:relative;
+    left: 20px;
+    top: -210px;
+    border: double rgb(140,129,119);
+    margin-bottom: -200px;
+}
+
+
+section div ul li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    padding:1px;
+    border: solid red;
+    padding-left: 90px;
+    padding-right: 50px; 
+    margin-left: 20px; 
+     
+}
+section div ul#ver li {
+    text-align: center; 
+}
+
+
 section div table{
 border-collapse: separate;
-}
-section table{
-    border: 1px solid #000;   
-    width: 100%;
-}
-section th, section td{
-    width: 10%;
-    text-align: center;
-    vertical-align:center;
-    border: 1px solid black
 }
 
 section h3, section p,section ul {
 
     position: relative;
     left: 50px;
-    font-size: 18px;
 } 
 
 section h3{
@@ -138,7 +236,7 @@ aside{
     background-color: rgb(140,129,119);
     right: 30px;
     width: 200px;
-    left: 63px;
+    right: 130px;
     padding: 20px;    
 }
 aside div{
@@ -148,7 +246,6 @@ aside div{
     width: 150px;
     background-color: rgb(64, 51, 44);
     border: double wheat 4px;
-  
 }
 aside h3{
     color: wheat;
@@ -163,8 +260,9 @@ aside div li {
     color: wheat;
     height: 20px;
     position: relative;
-    margin-left: -30px;
     left: 5px;
+    top: -5px;
+    margin-left: -30px;
 }
 
 footer{
@@ -179,7 +277,7 @@ footer .fot{
 footer img{
     height: 100px;
     position: relative;
-    right: 960px;
+    right: 950px;
     top: 20px;
     border: double wheat;
 }

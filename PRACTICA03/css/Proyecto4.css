@@ -1,0 +1,74 @@
+
+fieldset{
+    position:absolute;
+    left:45%;
+    top:45%;
+    width: 500px;
+    height: 330px;
+    margin:-100px 0 0 -150px;
+ 
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 70px;
+}
+div h1{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: -70px;
+
+}
+input{
+    margin-right: 30px;
+    color: gray;
+}
+input[type="button"]{
+    color: black;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 10px;
+    margin-bottom: 20px;
+}
+#re{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 110px;
+}
+input[type="text"]{
+    width: 160px;
+    margin-bottom: 10px;
+    left: -10px;
+    position: relative;
+}
+input[value="micorreo@dominio"], input[value="su contraseña"]{
+    width: 362px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 10px;
+    bottom: -2px;
+}
+#ch{
+    right: -100px;
+    position: relative;
+    left: -35px;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: bold;
+}
+
+input[value="Enviar"]{
+    position: relative;
+    left:150px;
+}

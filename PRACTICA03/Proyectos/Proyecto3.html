@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Proyecto3.css">
+    <link rel="icon" href="../img/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Encuesta de cine: Nominadas al Oscar 2018</h2>
+    </header>
+    <main>
+        <section>
+            <form id="Formulario1" name="Formulario1" method="post" action="data.php">
+                <fieldset id="dato_personales">
+                    <legend>Datos Personales</legend>
+                    <div id=a> <label for="Nombre">Nombre</label> <input type="text" name="a" > <br>
+                    </div>
+                    <div id="b"><label for="Apellido">Apellido</label> <input type="text" > <br>
+                    </div>
+                    <div id="c">
+                        <label for="DNI">DNI</label> <input type="text" > <br>
+                    </div>
+                    <div id="d">
+                        <label for="Edad">Edad</label> <input type="text" > <br>
+                    </div>
+                    <div id="e">  <label for="Sexo">Sexo</label> <select name="sexo" id="sexo" > </select>
+                    </div>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Mejor Película</legend>
+                    <input type="radio" name="pelicula" value="11"> Call Me By Your Name <br>
+                    <input type="radio" name="pelicula" value="22"> Dunkerque <br>
+                    <input type="radio" name="pelicula" value="33"> Dejame Salir <br>
+                </fieldset> <br>
+                <fieldset>
+                    <legend>Selecciones las películas que no hayas visto</legend>
+                    <input type="checkbox"> El hilo invisible <br>
+                    <input type="checkbox"> El istante mas oscuro <br>
+                    <input type="checkbox"> Tres anuncios a las afueras<br>
+                    <input type="checkbox"> La forma del agua <br>
+                    <input type="checkbox"> Lady Bird <br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Argumento de tu película</legend>
+                    <textarea name="argumento" id="Argumento" cols="50" rows="14"></textarea>
+                </fieldset> <br>
+               <input type="reset" value="Borrar Formulario" id="bo"> <input type="submit" value="Enviar" id="en">
+            </form>
+        </section>
+    </main>
+    <aside>
+        <img src="../img/Proyecto3.png" alt="">
+    </aside>
+</body>
+</html>
